@@ -81,7 +81,7 @@ public class Drivetrain extends SubsystemBase {
   private SwerveModule leftBack = new SwerveModule(
     Constants.SwerveConstants.LEFT_BACK_DRIVE_ID, 
     Constants.SwerveConstants.LEFT_BACK_TURN_ID, 
-    false, 
+    true, 
     true, 
     Constants.SwerveConstants.LEFT_BACK_CANCODER_ID, 
     Constants.SwerveConstants.LEFT_BACK_OFFSET);
@@ -89,7 +89,7 @@ public class Drivetrain extends SubsystemBase {
     private SwerveModule rightBack = new SwerveModule(
     Constants.SwerveConstants.RIGHT_BACK_DRIVE_ID, 
     Constants.SwerveConstants.RIGHT_BACK_TURN_ID, 
-    false, 
+    true, 
     true, 
     Constants.SwerveConstants.RIGHT_BACK_CANCODER_ID, 
     Constants.SwerveConstants.RIGHT_BACK_OFFSET);
